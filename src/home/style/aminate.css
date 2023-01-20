@@ -1,0 +1,72 @@
+.pulse {
+  animation: pulse 1s infinite ease-in-out alternate;
+}
+@keyframes pulse {
+  from { transform: scale(0.90); }
+  to { transform: scale(1.00); }
+}
+
+.flip {
+	backface-visibility: visible !important;
+	animation: flip 2s ease infinite;
+}
+@keyframes flip {
+	0% {
+		transform: perspective(400px) rotateY(0);
+		animation-timing-function: ease-out;
+	}
+	40% {
+		transform: perspective(400px) translateZ(150px) rotateY(170deg);
+		animation-timing-function: ease-out;
+	}
+	50% {
+		transform: perspective(400px) translateZ(150px) rotateY(190deg) scale(1);
+		animation-timing-function: ease-in;
+	}
+	80% {
+		transform: perspective(400px) rotateY(360deg) scale(.95);
+		animation-timing-function: ease-in;
+	}
+	100% {
+		transform: perspective(400px) scale(1);
+		animation-timing-function: ease-in;
+	}
+}
+
+@keyframes text-clip {
+    from {
+      clip-path: polygon(0% 100%, 100% 100%, 100% 100%, 0% 100%);
+    }
+    to {
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+}
+
+@keyframes outer-left {
+    from {
+      transform: translateX(50%);
+    }
+    to {
+      transform: none;
+    }
+  }
+  
+  @keyframes inner-left {
+    from {
+      transform: translateX(-50%);
+    }
+    to {
+      transform: none;
+    }
+  }
+.ani-outer{
+    animation: outer-left 1s 1s cubic-bezier(0.5, 0, 0.1, 1) both;
+}  
+.ani-inner{
+  animation: outer-left 1s 1s ease both, text-clip 1s 0s cubic-bezier(0.5, 0, 0.1, 1) both;
+}
+/* Replay animation!*/
+body:active * {
+  animation: none !important;
+}
+
