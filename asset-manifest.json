@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/mill/static/css/main.b01f0304.css",
+    "main.js": "/mill/static/js/main.2982e4b4.js",
+    "static/js/787.5d0dcf51.chunk.js": "/mill/static/js/787.5d0dcf51.chunk.js",
+    "static/media/image_1.png": "/mill/static/media/image_1.191c14919581c8f24a8c.png",
+    "static/media/tennis-girl-professional-tennis-court.png": "/mill/static/media/tennis-girl-professional-tennis-court.e3371ba3490072821fcc.png",
+    "static/media/background2.png": "/mill/static/media/background2.17c773ff3b7551f30f11.png",
+    "static/media/Group_11.png": "/mill/static/media/Group_11.7d11b1f852292bf66033.png",
+    "static/media/casino.png": "/mill/static/media/casino.31203bcfce64f0c50c21.png",
+    "static/media/qq-03_1.png": "/mill/static/media/qq-03_1.f52d8b24d711930a9716.png",
+    "static/media/homeback1.png": "/mill/static/media/homeback1.99551a4c94b0a1570692.png",
+    "static/media/betting_right.png": "/mill/static/media/betting_right.59cacc67cb96b4e63a0a.png",
+    "static/media/betting_left.png": "/mill/static/media/betting_left.b52414400743dbe21ed4.png",
+    "static/media/header.png": "/mill/static/media/header.566796b13e9d164bcf8a.png",
+    "index.html": "/mill/index.html",
+    "main.b01f0304.css.map": "/mill/static/css/main.b01f0304.css.map",
+    "main.2982e4b4.js.map": "/mill/static/js/main.2982e4b4.js.map",
+    "787.5d0dcf51.chunk.js.map": "/mill/static/js/787.5d0dcf51.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b01f0304.css",
+    "static/js/main.2982e4b4.js"
+  ]
+}
